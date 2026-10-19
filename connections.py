@@ -16,6 +16,8 @@ def check_guess_correctness(guesses: list, board: dict) -> tuple:
         or None if no guesses are correct.
     '''
     pass
+
+
 def validate_guess(guesses: list, board: dict) -> bool:
     '''
     Checks that the user has guessed 4 valid words from the board, with no duplicates.
@@ -29,6 +31,8 @@ def validate_guess(guesses: list, board: dict) -> bool:
 
     '''
     pass
+
+
 def read_line(line: str) -> list:
     '''
     Reads and cleans a comma-separated line with a category name and its words/phrases
@@ -45,6 +49,8 @@ def read_line(line: str) -> list:
         
     '''
     pass
+
+
 def load_board(name: str) -> dict:
     '''
     Loads a Connections board from a comma-separated values file in the games/
@@ -62,6 +68,8 @@ def load_board(name: str) -> dict:
         category
     '''
     pass
+
+
 def display_board(board: dict) -> None:
     '''
     Prints the board in random order, with four words per line separated by spaces.
@@ -83,6 +91,8 @@ def display_board(board: dict) -> None:
        CHERRY                   LION                   APPLE                    CAT         
     '''
     pass
+
+
 if __name__ == "__main__":
     '''
     Asks the user which game they want to play, then loads the board and
